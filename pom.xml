@@ -51,7 +51,7 @@
 
 	<build>
 	  <finalName>
-	        My Spring Boot Project
+	       myspringboot
 	  </finalName>
 		<plugins>
 			<plugin>
