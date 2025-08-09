@@ -9,12 +9,19 @@ public class ClientController {
 	@GetMapping("/")
 	 public String home()
 	 {
-		 return "welcome to CI/CD";
+		 return "welcome to CI/CD   build 2.0";
 	 }
 	
 	@GetMapping("/demo")
 	 public String demo()
 	 {
-		 return "demo";
+		 return "test";
 	 }
+	
+	@GetMapping("/home")
+	 public String h()
+	 {
+		 return "deploy sprom=ngboot using jenkins " ;
+	 }
+	
 }
